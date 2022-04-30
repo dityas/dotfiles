@@ -1,5 +1,5 @@
 require("basic")
 require("keybinds")
-require("feline").setup({
-    preset = "noicon"
-})
+require("hardline").setup {
+    bufferline = true
+}

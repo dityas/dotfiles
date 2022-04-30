@@ -25,7 +25,7 @@ local Plug = vim.fn["plug#"]
 vim.call("plug#begin", "~/.nvim")
 -- Plug("dracula/vim")
 Plug("savq/melange")
-Plug("feline-nvim/feline.nvim")
+Plug("ojroques/nvim-hardline")
 Plug("scrooloose/nerdtree")
 Plug("neoclide/coc.nvim", { branch = "release"})
 vim.call("plug#end")
