@@ -28,6 +28,7 @@ Plug("savq/melange")
 Plug("scrooloose/nerdtree")
 Plug("neoclide/coc.nvim", { branch = "release"})
 Plug("lervag/vimtex")
+Plug("nvim-lualine/lualine.nvim")
 vim.call("plug#end")
 
 -- change colorscheme
