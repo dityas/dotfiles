@@ -23,15 +23,13 @@ vim.cmd("syntax enable")
 -- Plugins and all
 local Plug = vim.fn["plug#"]
 vim.call("plug#begin", "~/.nvim")
--- Plug("dracula/vim")
-Plug("savq/melange")
 Plug("scrooloose/nerdtree")
 Plug("neoclide/coc.nvim", { branch = "release"})
 Plug("lervag/vimtex")
 Plug("nvim-lualine/lualine.nvim")
+Plug("catppuccin/nvim", { as = "catppuccin" })
 vim.call("plug#end")
 
 -- change colorscheme
 set.termguicolors = true
-vim.cmd("colorscheme melange")
 
