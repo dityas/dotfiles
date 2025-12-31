@@ -24,7 +24,6 @@ vim.cmd("syntax enable")
 local Plug = vim.fn["plug#"]
 vim.call("plug#begin", "~/.nvim")
 Plug("scrooloose/nerdtree")
-Plug("neoclide/coc.nvim", { branch = "release"})
 Plug("lervag/vimtex")
 Plug("nvim-lualine/lualine.nvim")
 Plug("catppuccin/nvim", { as = "catppuccin" })

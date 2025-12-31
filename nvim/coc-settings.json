@@ -1,7 +1,0 @@
-{
-  "pyright.enable": true,
-  "python.linting.pylintEnabled": true,
-  "pyright.inlayHints.enable": false,
-  "inlayHint.enable": false
-}
-
