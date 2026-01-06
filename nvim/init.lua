@@ -1,6 +1,7 @@
 require("basic")
 require("keybinds")
 require("iface")
+require("slopspace")
 
 
 -- tab completion minimal
@@ -79,4 +80,3 @@ vim.lsp.enable("pyright")
 -- Tab completion keybind
 vim.keymap.set("i", "<Tab>", tab_complete, {expr = true})
 vim.keymap.set("i", "<S-Tab>", tab_scroll_up, {expr = true})
-
