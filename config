@@ -16,7 +16,7 @@ set $mod Mod4
 font pango:Ubuntu Mono 12
 
 # Wallpaper (Added 29th Dec 2025)
-exec_always --no-startup-id feh --bg-scale /home/adityas/Pictures/Wallpapers/WeLostTheSea.jpg
+exec_always --no-startup-id feh --bg-scale /home/adityas/Pictures/Wallpapers/guilliman.jpg
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
